@@ -1,0 +1,47 @@
+
+.score-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: blue;
+    font-size: 24px;
+
+    margin-bottom: 20px;
+}
+
+.button-start {
+    margin-top: 20px;
+    background-color: aquamarine;
+    color: green;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.container {
+    border: 2px solid green;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    cursor: url('../img/hammer.png') 16 16, crosshair;
+}
+
+.item {
+    box-sizing: border-box;
+    border: 2px solid green;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goblin {
+    width: 90px;
+    height: 90px;
+}
+
+.hiden {
+    display: none;
+}
